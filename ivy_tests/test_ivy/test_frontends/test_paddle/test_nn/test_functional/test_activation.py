@@ -652,5 +652,6 @@ def test_paddle_gumbel_softmax(
         x=x[0],
         temperature=temperature,
         axis=axis,
-        hard=hard,
+        hard=hard[0],
+        test_values=False,
     )
